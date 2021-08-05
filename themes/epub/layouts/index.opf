@@ -34,9 +34,10 @@
    <item href="couverture.xhtml" id="couverture" media-type="application/xhtml+xml" />
    <item href="about.xhtml" id="about" media-type="application/xhtml+xml" />
    <item href="toc.xhtml" id="nav" properties="nav" media-type="application/xhtml+xml" />
-   <item href="../uploads/cover.jpg" id="cover-image" media-type="image/jpeg" properties="cover-image" />
-   {{ range .Site.Data.images }}
-   <item href="../uploads/{{ .nomdufichier }}" id="{{ .identifiant }}" media-type="image/jpeg" />
+   {{- range readDir "static/uploads" }}
+   {{- if (findRE ".jpg$" .Name) }}
+   <item href="../uploads/{{ .Name }}" id="{{ .Name }}" media-type="image/jpeg" {{ if eq .Name "cover.jpg" }}properties="cover-image"{{ end }} />
+   {{- end -}}
    {{ end }}
    <item href="css/stylesheet.css" id="css" media-type="text/css" /> 
 {{ $i := 0 -}}
@@ -44,7 +45,7 @@
 {{- $size := .Site.Params.imgsize -}}
 {{- $beginning := "" -}}
 {{- range ( where .Site.RegularPages.ByWeight "Section" "ne" "" ) }}
-{{- if eq .Params.chapitre "oui" -}}
+{{- if eq .Params.chapitre "oui" }}
    <item href="{{ replace .Permalink "/content/" "" }}" id="chapter_{{ $i }}" media-type="application/xhtml+xml" />
 	{{- if eq $i 0 }}{{ $beginning = .Permalink }}{{ end -}}
 	{{- with  .Resources.ByType "image" -}}
@@ -56,17 +57,17 @@
 	{{- end -}}
 {{ $i = add $i 1 }}
 {{- end -}}
-{{- end }}
+{{ end }}
 
  </manifest>
 
 
  <spine toc="ncx">
    <itemref idref="couverture" />
-   <itemref idref="colophon" />
+   <itemref idref="about" />
 {{ $i = 0 }}
 {{- range ( where .Site.RegularPages "Section" "ne" "" ).Reverse }}
-{{- if eq .Params.chapitre "oui" -}}
+{{- if eq .Params.chapitre "oui" }}
   <itemref idref="chapter_{{ $i }}" />   
 {{- $i = add $i 1 }}
 {{- end -}}
