@@ -28,3 +28,59 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+
+stages:
+  - pre-build
+  - build
+  - post-build
+  - site
+
+hugo2:
+  stage: pre-build
+  image: jojomi/hugo
+  script:
+  - hugo version
+  - hugo --cleanDestinationDir --environment epub --destination temp
+  artifacts:
+    paths:
+    - temp
+  only:
+  - main
+zip:
+  stage: build
+  image: tetraweb/php
+  script:
+  - apt-get update
+  - apt-cache gencaches
+  - apt-get install -y zip unzip
+  - cd temp
+  - rm -f ebook.epub
+  - zip -rX ebook.epub mimetype content META-INF uploads
+  artifacts:
+    paths:
+    - temp
+  only:
+  - main
+hugo1:
+  stage: post-build
+  image: jojomi/hugo
+  script:
+  - hugo version
+  - hugo --environment _default --destination temp2
+  artifacts:
+    paths:
+    - temp2
+  only:
+  - main
+pages:
+  stage: site
+  image: alpine:latest
+  script:
+  - mkdir -p public
+  - cp temp/ebook.epub public
+  - cp -r temp2/* public
+  artifacts:
+    paths:
+    - public
+  only:
+    - main
