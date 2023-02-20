@@ -1,9 +1,10 @@
 ---
-title: About
-date: 2021-02-06
+title: À propos
+date: 2023-01-21
 weight: 50
 type: colophon
 ---
-Demo website for a _literary publication factory_ project, in the context of the doctoral thesis of Antoine Fauchié ([www.quaternum.net](https://www.quaternum.net)): [https://gitlab.com/antoinentl/fabrique](https://gitlab.com/antoinentl/fabrique).
 
-Source of the text: [Wikisource](https://en.wikisource.org/wiki/Anarchism_and_Other_Essays).
+Site pour un atelier d'écriture numérique collaborative des *Nouvelles histoires extraordinaires* de Poe. 
+
+Source des texte : Édition A. Quantin, 1884, traduction par C. Baudelaire, [Wikisource](https://fr.wikisource.org/wiki/Nouvelles_Histoires_extraordinaires).
