@@ -7,6 +7,8 @@ $highlight:           lighten($brand-color, 35%);
 $text-color:          #0b0404;
 $muted-text-color:    #64644B;
 $font-family:         "EB Garamond", Garamond, "Times New Roman", serif;
+$font-family2:         "Old London";
+
 
 $on-bigphone:         375px;
 $on-tablet:           768px;
@@ -99,8 +101,8 @@ code.highlighter-rouge {
 @mixin divider {
   border: 0;
   display: block;
-  width: 152px;
-  height: 12px;
+  width: 102px;
+  height: 112px;
   margin: .5em auto 0;
   background: url(/images/divider.svg) no-repeat top center;
 }
@@ -120,6 +122,17 @@ code.highlighter-rouge {
        url('/fonts/eb-garamond-v9-latin-regular.svg#EBGaramond') format('svg'); /* Legacy iOS */
 }
 
+@font-face {
+  font-family: 'Old London';
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: url('/fonts/olondo.eot'); /* IE9 Compat Modes */
+  src: local('EB Garamond Regular'), local('EBGaramond-Regular'),
+       url('/fonts/olondo.woff') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/olondo.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
 // base
 body {
   background: $brand-color;
@@ -132,6 +145,13 @@ body {
 h1 {
   font-size: 3em;
   margin: .5em auto;
+  font-family: $font-family;
+}
+
+h1.gothic {
+  font-size: 3em;
+  margin: .5em auto;
+  font-family: $font-family2;
 }
 
 h2 {

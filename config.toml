@@ -4,23 +4,18 @@ theme = "roman"
 date = [":filename", ":default"]
 [[menu.main]]
 identifier = "about"
-name = "About"
+name = "À propos"
 url = "/about/"
 weight = 2
 [[menu.main]]
 identifier = "index"
-name = "Contents"
+name = "Contenus"
 url = "/"
 weight = 1
 [[menu.main]]
 identifier = "print"
-name = "Print"
+name = "Impression"
 url = "/print"
-weight = 3
-[[menu.main]]
-identifier = "epub"
-name = "EPUB"
-url = "/ebook.epub"
 weight = 3
 [outputs]
 home = ["HTML"]
