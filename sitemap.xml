@@ -52,6 +52,12 @@
   </url>
   
   <url>
+    <loc>/nouvelle10/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/nouvelle4/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
