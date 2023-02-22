@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/nouvelle1/</loc>
+    <lastmod>2023-02-21T10:01:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/about/</loc>
     <lastmod>2023-01-21T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -11,7 +18,14 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2023-01-21T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-21T10:01:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2023-02-21T10:01:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -50,12 +64,6 @@
   
   <url>
     <loc>/print/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/posts/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
