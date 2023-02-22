@@ -2,7 +2,7 @@
 chapter = "Nouvelle 8"
 date = "2023-02-21T10:01:00.000+00:00"
 title = "Le Diable dans le beffroi"
-weight = Numero + 9
+weight = Numero 9
 chapitre = "oui"
 editor = "Ludi Marwood"
 +++
