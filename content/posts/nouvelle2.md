@@ -2,7 +2,7 @@
 chapter = "Nouvelle 2"
 date = "2023-02-21T10:01:00.000+00:00"
 title = "Le chat noir"
-weight = Numero 3 
+weight = 3 
 chapitre = "oui"
 editor = "Camille Germain"
 +++
