@@ -6,30 +6,15 @@ weight = 12
 chapitre = "oui"
 +++
 
-L’Île de la Fée
-
-
-					Edgar Allan Poe
-
-
-
-
-
-A. Quantin, Paris, 1884
-
-
-
-
-
-
-
 # L’ÎLE DE LA FÉE
+Edgar Allan Poe
 
 
 
 
+<sub>Nullus enim locus sine genio est.                                                                                                                           
+	Servius.</sup>
 
-Nullus enim locus sine genio est. Servius.
 
 
 
@@ -113,3 +98,4 @@ Les contributeurs suivants ont permis la réalisation de ce livre :
 ↑ http://www.gnu.org/copyleft/fdl.html
 
 ↑ http://fr.wikisource.org/wiki/Aide:Signaler_une_erreur
+
