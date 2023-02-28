@@ -2,9 +2,9 @@
 chapter = "Nouvelle 5"
 date = "2023-01-21T10:01:00.000+00:00"
 title = "Bérénice"
-weight = 6
+weight = "6"
 chapitre = "oui"
-editor = Marie
+editor = "Marie"
 +++
 
 
@@ -29,8 +29,11 @@ A. Quantin, Paris, 1884
 
 
 Dicebant mihi sodales, si sepulchrum amicæ visitarem,
-curas meas aliquantulum fore levatas. 
-Ebn Zaiat.
+
+curas meas aliquantulum fore levatas.^[1]
+
+Ebn Zaiat. 
+
 
 
 
@@ -94,3 +97,6 @@ On frappa un léger coup à la porte de la bibliothèque, et, pâle comme un hab
 
 Il regarda mes vêtements ; ils étaient grumeleux de boue et de sang. Sans dire un mot, il me prit doucement par la main ; elle portait des stigmates d’ongles humains. Il dirigea mon attention vers un objet placé contre le mur. Je le regardai quelques minutes : c’était une bêche. Avec un cri je me jetai sur la table et me saisis de la boîte d’ébène. Mais je n’eus pas la force de l’ouvrir ; et, dans mon tremblement, elle m’échappa des mains, tomba lourdement et se brisa en morceaux ; et il s’en échappa, roulant avec un vacarme de ferraille, quelques instruments de chirurgie dentaire, et avec eux trente-deux petites choses blanches, semblables à de l’ivoire, qui s’éparpillèrent çà et là sur le plancher.
 
+^[1]: Voici une traduction faite sur Google Traduction :
+Mes amis m'ont dit, si je devais visiter la tombe de mon ami;
+mes inquiétudes seraient quelque peu soulagées.
