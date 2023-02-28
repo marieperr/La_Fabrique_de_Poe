@@ -6,7 +6,8 @@ weight = 6
 chapitre = "oui"
 +++
 
-Bérénice
+
+
 
 
 					Edgar Allan Poe
@@ -30,7 +31,8 @@ A. Quantin, Paris, 1884
 
 
 
-Dicebant mihi sodales, si sepulchrum amicæ visitarem, curas meas aliquantulum fore levatas. 
+Dicebant mihi sodales, si sepulchrum amicæ visitarem,
+curas meas aliquantulum fore levatas. 
 Ebn Zaiat.
 
 
