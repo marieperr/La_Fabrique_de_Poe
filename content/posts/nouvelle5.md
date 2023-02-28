@@ -39,7 +39,7 @@ Ebn Zaiat.
 
 
 
-Le malheur est divers. La misère sur terre est multiforme. Dominant le vaste horizon comme l’arc-en-ciel, ses couleurs sont aussi variées, — aussi distinctes, et toutefois aussi intimement fondues. Dominant le vaste horizon comme l’arc-en-ciel ! Comment d’un exemple de beauté ai-je pu tirer un type de laideur ? du signe d’alliance et de paix une similitude de la douleur ? Mais, comme, en éthique, le mal est la conséquence du bien, de même, dans la réalité, c’est de la joie qu’est né le chagrin ; soit que le souvenir du bonheur passé fasse l’angoisse d’aujourd’hui, soit que les agonies qui *sont* tirent leur origine des extases qui *peuvent avoir été.*
+Le malheur est divers. La misère sur terre est multiforme. Dominant le vaste horizon comme l’arc-en-ciel, ses couleurs sont aussi variées,-- aussi distinctes, et toutefois aussi intimement fondues. Dominant le vaste horizon comme l’arc-en-ciel ! Comment d’un exemple de beauté ai-je pu tirer un type de laideur ? du signe d’alliance et de paix une similitude de la douleur ? Mais, comme, en éthique, le mal est la conséquence du bien, de même, dans la réalité, c’est de la joie qu’est né le chagrin ; soit que le souvenir du bonheur passé fasse l’angoisse d’aujourd’hui, soit que les agonies qui *sont* tirent leur origine des extases qui *peuvent avoir été.*
 
 J’ai à raconter une histoire dont l’essence est pleine d’horreur. Je la supprimerais volontiers, si elle n’était pas une chronique de sensations plutôt que de faits.
 
